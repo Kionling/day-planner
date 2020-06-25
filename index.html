@@ -33,9 +33,9 @@
       <div class="row">
       <div class="time-block col-12">
         <div class="row">
-        <p id="" class="hour col-2">9am</p>
-        <textarea class="col-8" id="9amInput"></textarea>
-        <button id="Save" class="saveBtn col-2">Save</button>
+        <p id="nineAM" value="9" class="hour col-2">9am</p>
+        <textarea class="col-8" name="9" id="9amInput"></textarea>
+        <button id="Save" onclick="saveEvent(document.getElementById('9amInput').value, document.getElementById('9amInput').value2)" class="saveBtn col-2">Save</button>
         </div>
       </div>
       </div>
@@ -44,8 +44,8 @@
       <div class="row">
         <div class="time-block col-12">
           <div class="row">
-          <p id="" class="hour col-2">10am</p>
-          <textarea class="col-8"id="10amInput"></textarea>
+          <p id="tenAM" value="10" class="hour col-2">10am</p>
+          <textarea class="col-8"id="10amInput" name="10" value=""></textarea>
           <button id="Save" class="saveBtn col-2">Save</button>
           </div>
         </div>
@@ -55,8 +55,8 @@
         <div class="row">
           <div class="time-block col-12">
             <div class="row">
-            <p id="" class="hour col-2">11am</p>
-            <textarea class="col-8"id="11amInput"></textarea>
+            <p id="elevenAM" value="11" class="hour col-2">11am</p>
+            <textarea class="col-8"id="11amInput" name="11" value=""></textarea>
             <button id="Save" class="saveBtn col-2">Save</button>
             </div>
           </div>
@@ -66,8 +66,8 @@
           <div class="row">
             <div class="time-block col-12">
               <div class="row">
-              <p id="" class="hour col-2">12pm</p>
-              <textarea class="col-8"id="12pmInput"></textarea>
+              <p id="twelvePM" value="12"class="hour col-2">12pm</p>
+              <textarea class="col-8"id="12pmInput" name="12" value=""></textarea>
               <button id="Save" class="saveBtn col-2">Save</button>
               </div>
             </div>
@@ -77,8 +77,8 @@
             <div class="row">
               <div class="time-block col-12">
                 <div class="row">
-                <p id="" class="hour col-2">1pm</p>
-                <textarea class="col-8" id="1pmInput"></textarea>
+                <p id="onePM" value="13" class="hour col-2">1pm</p>
+                <textarea class="col-8" id="1pmInput" name="13" value=""></textarea>
                 <button id="Save" class="saveBtn col-2">Save</button>
                 </div>
               </div>
@@ -88,8 +88,8 @@
               <div class="row">
                 <div class="time-block col-12">
                   <div class="row">
-                  <p id="" class="hour col-2">2pm</p>
-                  <textarea class="col-8" id="2pmInput"></textarea>
+                  <p id="twoPM" value="14" class="hour col-2">2pm</p>
+                  <textarea class="col-8" id="2pmInput" name="14" value=""></textarea>
                   <button id="Save" class="saveBtn col-2">Save</button>
                   </div>
                 </div>
@@ -99,8 +99,8 @@
                 <div class="row">
                   <div class="time-block col-12">
                     <div class="row">
-                    <p id="" class="hour col-2">3pm</p>
-                    <textarea class="col-8" id="3pmInput"></textarea>
+                    <p id="threePM" value="15"class="hour col-2">3pm</p>
+                    <textarea class="col-8" id="3pmInput" name="15" value=""></textarea>
                     <button id="Save" class="saveBtn col-2">Save</button>
                     </div>
                   </div>
@@ -110,8 +110,8 @@
                   <div class="row">
                     <div class="time-block col-12">
                       <div class="row">
-                      <p id="" class="hour col-2">4pm</p>
-                      <textarea class="col-8" id="4pmInput"></textarea>
+                      <p id="fourPM" values="16"class="hour col-2">4pm</p>
+                      <textarea class="col-8" id="4pmInput" name="16" value=""></textarea>
                       <button id="Save" class="saveBtn col-2">Save</button>
                       </div>
                     </div>
@@ -121,8 +121,8 @@
                     <div class="row">
                       <div class="time-block col-12">
                         <div class="row">
-                        <p id="" class="hour col-2">5pm</p>
-                        <textarea class="col-8" id="5pmInput"></textarea>
+                        <p id="fivePM" value="17" class="hour col-2">5pm</p>
+                        <textarea class="col-8" id="5pmInput" name="17" value=""></textarea>
                         <button id="Save" class="saveBtn col-2">Save</button>
                         </div>
                       </div>
@@ -148,7 +148,9 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">
+
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
