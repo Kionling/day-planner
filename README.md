@@ -24,6 +24,6 @@ This is necessary for proper use of all the Jquery specific objects, operators, 
 - JQuery
 # Deployed Link
 
- - [Link to Github repository]()
- - [Link to Site]()
+ - [Link to Github repository](https://github.com/Kionling/day-planner)
+ - [Link to Site](https://kionling.github.io/day-planner/)
 
